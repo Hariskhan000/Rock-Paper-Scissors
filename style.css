@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #081b31;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+/* here is our choices style */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: #081b31;
+    cursor: pointer;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+}
+
+.score-board p {
+    font-size: 1.5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 2rem;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    height: 10vh;
+    /* Set the container height for vertical centering */
+    margin-top: 2rem;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
